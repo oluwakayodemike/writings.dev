@@ -23,13 +23,11 @@ nav ul li a {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-size: 24px;
-    line-height: 36px;
     color: #FFFFFF;
     text-decoration: none;
 }
 .logo-text a{
     font-size: 30px;
-    line-height: 45px;
 }
 #nav-areas {
     display: flex;
@@ -54,7 +52,7 @@ nav ul li a {
 }
 
 hr {
-    margin-top: 2%;
+    margin: 2% 0 0 0;
     border-color:#4D4D4D; 
     border-style:solid;
 }
@@ -62,6 +60,10 @@ hr {
 .category-listing {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.category-listing img {
     gap: 20px;
 }
 .category-listing ul {
@@ -70,11 +72,11 @@ hr {
     display: flex;
     gap: 20px;
 }
+
 .category-listing ul li {
     font-family: "Recursive", serif;
     font-weight: 400;
     font-size: 27px;
-    line-height: 36px;
     color: #909090;
     text-decoration: none;
 }
