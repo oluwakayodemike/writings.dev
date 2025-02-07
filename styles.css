@@ -1,9 +1,10 @@
 body{
-    background-color: #40396E;
+    background-color: #232830;
 }
 
 header {
     text-align: center;
+    margin-top: 2%;
 }
 
 #nav-header {
@@ -34,4 +35,46 @@ nav ul li a {
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
+}
+
+.group-5 h1{
+    font-family: "Recursive", serif;
+    font-size: 71px;
+    font-style: italic;
+    font-weight: 400;
+    color: #FF7575;
+    margin: 40px 0 0 0;
+}
+.group-5 h2{
+    font-family: "Poppins", serif;
+    font-size: 29px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 17px 0 0 0;
+}
+
+hr {
+    margin-top: 2%;
+    border-color:#4D4D4D; 
+    border-style:solid;
+}
+
+.category-listing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.category-listing ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.category-listing ul li {
+    font-family: "Recursive", serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    color: #909090;
+    text-decoration: none;
 }
